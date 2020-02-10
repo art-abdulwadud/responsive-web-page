@@ -43,7 +43,7 @@ nav{
 	text-decoration: none;
 	color: rgba(178,82,82, 0.6)
 }
-/** Grid for holding the rest of the sections **/
+/*** Grid for holding the rest of the sections ***/
 .main-grid{
 	position: absolute;
 	display: grid;
@@ -52,6 +52,7 @@ nav{
 	min-height: 100vh;
 	min-width: 100%;
 }
+/** Sidebar **/
 .sidebar-sec{
 	grid-row: 1/2;
 	grid-column: 1/2;
@@ -76,6 +77,7 @@ aside{
 	text-decoration: none;
 	color: rgba(178,82,82, 0.6)
 }
+/* Articles */
 .article-sec{
 	grid-row: 1/2;
 	grid-column: 2/3;
@@ -85,6 +87,16 @@ aside{
 article{
 	min-height: 40vh;
 	position: relative;
+}
+article h1{
+	font-family: 'Russo One', sans-serif;
+	font-size: calc(90% + 25px);
+	margin-left: 5px;
+}
+article p{
+	font-family: 'Lemonada', cursive;
+	font-size: calc(60% + 10px);
+	margin-left: 5px;
 }
 /*
   ##Device = Desktops
