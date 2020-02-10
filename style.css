@@ -1,15 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-}
-header{
-	width: 100%;
-	position: absolute;
-	top: 0;
-	background: #000000;  /* fallback for old browsers */
+    background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3);
     background: linear-gradient(to right, #fdfcfb, #e2d1c3 );
 }
+/** Header **/
+header{
+	width: 100%;
+	position: relative;
+	background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3);
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3 );
+    border-bottom: 2px solid #e2d1c3;
+    margin: 0;
+}
+/* Navbar */
 nav{
 	text-align: left;
 }
@@ -17,7 +23,7 @@ nav{
 	float: left;
 }
 .brand-img{
-	max-height: 10vh;
+	max-height: 7vh;
 }
 .navlist{
 	list-style: none;
@@ -36,6 +42,49 @@ nav{
 .navlink:hover{
 	text-decoration: none;
 	color: rgba(178,82,82, 0.6)
+}
+/** Grid for holding the rest of the sections **/
+.main-grid{
+	position: absolute;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: auto;
+	min-height: 100vh;
+	min-width: 100%;
+}
+.sidebar-sec{
+	grid-row: 1/2;
+	grid-column: 1/2;
+	position: relative;
+	height: 100%;
+	background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3);
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3 );
+}
+aside{
+	position: fixed;
+}
+.article-links{
+	display: block;
+	font-family: 'Russo One', sans-serif;
+	font-size: calc(80% + 10px);
+	color: #b25252;
+	margin-left: 10px;
+	transition: 0.5s;
+}
+.article-links:hover{
+	text-decoration: none;
+	color: rgba(178,82,82, 0.6)
+}
+.article-sec{
+	grid-row: 1/2;
+	grid-column: 2/3;
+	position: relative;
+	min-height: 100vh;
+}
+article{
+	min-height: 40vh;
+	position: relative;
 }
 /*
   ##Device = Desktops
