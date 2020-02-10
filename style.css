@@ -2,7 +2,41 @@ body{
     margin: 0;
     padding: 0;
 }
-
+header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3);
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3 );
+}
+nav{
+	text-align: left;
+}
+.brand{
+	float: left;
+}
+.brand-img{
+	max-height: 10vh;
+}
+.navlist{
+	list-style: none;
+	text-align: right;
+}
+.navitem{
+	display: inline-block;
+	margin-right: 10px;
+}
+.navlink{
+	font-family: 'Russo One', sans-serif;
+	font-size: calc(80% + 10px);
+	color: #b25252;
+	transition: 0.5s;
+}
+.navlink:hover{
+	text-decoration: none;
+	color: rgba(178,82,82, 0.6)
+}
 /*
   ##Device = Desktops
 */
