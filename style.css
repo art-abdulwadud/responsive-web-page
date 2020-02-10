@@ -87,6 +87,9 @@ aside{
 	padding: 5px;
 	margin-right: 5px;
 }
+.close-menu, .open-menu{
+	height: 10vh;
+}
 /* Articles */
 .article-sec{
 	grid-row: 1/2;
