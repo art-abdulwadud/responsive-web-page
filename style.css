@@ -81,6 +81,12 @@ aside{
 	text-decoration: none;
 	color: rgba(178,82,82, 0.6);
 }
+.link-list{
+	border: 2px solid #b25252;
+	border-radius: 40%;
+	padding: 5px;
+	margin-right: 5px;
+}
 /* Articles */
 .article-sec{
 	grid-row: 1/2;
