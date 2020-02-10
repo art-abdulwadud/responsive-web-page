@@ -79,7 +79,7 @@ aside{
 }
 .article-links:hover{
 	text-decoration: none;
-	color: rgba(178,82,82, 0.6)
+	color: rgba(178,82,82, 0.6);
 }
 /* Articles */
 .article-sec{
@@ -109,17 +109,48 @@ footer{
 	position: relative;
 	min-height: 40vh;
 }
-.contact{
-	float: left !important;
-	}
+.contact ul{
+	list-style: none;
+}
+.contact ul li{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.contact .email{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: calc(80% + 15px);
+	color: black;
+}
+.contact .phone{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: calc(80% + 15px);
+}
+.contact .location{
+	font-family: 'Lemonada', cursive;
+	font-size: calc(60% + 10px);
+	color: black;
+}
+.contact a:hover{
+	text-decoration: none;
+	color: rgba(178,82,82, 0.6); 
+}
 .about{
 	float: right !important;
+}
+.about h1{
+	font-family: 'Russo One', sans-serif;
+	font-size: calc(70% + 15px);
+}
+.about p{
+	font-family: 'Lemonada', cursive;
+	font-size: calc(60% + 6px);
 }
 .icons{
 	display: inline-block;
 }
 .sm-icons{
 	max-height: 6vh;
+	margin-right: 5px;
 }
 /*
   ##Device = Desktops
