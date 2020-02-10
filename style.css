@@ -211,10 +211,10 @@ footer{
 		grid-template-rows: auto auto;
 	}
 	.navitem{
-		display: none;
+		display: inline-block;
 	}
 	.nav-icon{
-		display: block;
+		display: none;
 	}
 }
 
@@ -228,10 +228,10 @@ footer{
 		grid-template-rows: auto auto;
 	}
 	.navitem{
-		display: none;
+		display: inline-block;
 	}
 	.nav-icon{
-		display: block;
+		display: none;
 	}
 }
 
