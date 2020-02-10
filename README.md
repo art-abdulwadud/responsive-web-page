@@ -5,7 +5,7 @@
 * [Navbar](#Navbar)
 * [Sidebar](#Sidebar)
 * [Flexbox](#Flexbox)
-* [Responsive Containers](#Responsive Containers)
+* [Responsive-Containers](#Responsive-Containers)
 
 ## Navbar
 
