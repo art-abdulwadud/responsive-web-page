@@ -102,11 +102,24 @@ article p{
 	font-size: calc(60% + 10px);
 	margin-left: 5px;
 }
+/** Footer **/
 footer{
 	grid-row: 2/3;
 	grid-column: 2/3;
 	position: relative;
-	height: 40vh;
+	min-height: 40vh;
+}
+.contact{
+	float: left !important;
+	}
+.about{
+	float: right !important;
+}
+.icons{
+	display: inline-block;
+}
+.sm-icons{
+	max-height: 6vh;
 }
 /*
   ##Device = Desktops
