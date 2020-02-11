@@ -40,11 +40,17 @@ grid-template-rows: auto;
 ```
 In this instance, we have created a grid made up two colums and a row, therefore, two cells, one on the left and another on the right.
 
-In this project, a grid is created to hold all the sections of the page except the Navbar which is on the header section. This is done to make it easier to arrange all other sections and place them where needed.
+In this project, a grid is created to hold all the sections of the page except the Navbar which is on the header section. This is done to make it easier to arrange all other sections and place them where needed. This grid is made up of two columns and two rows.
+```
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+```
 ## Sidebar
-
-
-
+The sidebar is situated inside the main grid. `.sidebar-sec` is set to be in the first cell on the right and in both rows.
+```
+grid-row: 1/3;
+grid-column: 1/2;
+```
 ## Flexbox
 
 ## Responsive Containers
