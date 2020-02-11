@@ -62,11 +62,33 @@ grid-template-columns: auto auto;
 grid-template-rows: auto auto;
 ```
 ## Sidebar
-The sidebar is situated inside the main grid. `.sidebar-sec` is set to be in the first cell on the right and in both rows.
+The sidebar is situated inside the main grid. `.sidebar-sec` is set to be in the first cell on the left and in both rows.
 ```
 grid-row: 1/3;
 grid-column: 1/2;
 ```
+Inside `.sidebar-sec`, there's an `aside` tag which is set to a fixed position so that the element within it do not move when scrolling.
+```
+position: fixed;
+```
+Inside the `aside` tag, there are `.article-links` which, within them, we have our icons and labels, each for selecting one of the articles.`.article-links` is set to block display to arrange our icons and labes vertically.
+```
+display: block;
+```
+The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag.
+```
+closeMenu.addEventListener('click', () => {
+	sidebarActive = false
+	for(let i = 0; i < links.length; i++){
+		links[i].style.display = 'none';
+	}
+	mainGrid.classList.remove('main-grid-active')
+	mainGrid.classList.add('main-grid')
+	closeMenu.style.display = 'none';
+	openMenu.style.display = 'inline-table';
+})
+```
+The 
 ## Flexbox
 
 ## Responsive Containers
