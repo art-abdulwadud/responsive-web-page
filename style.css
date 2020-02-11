@@ -205,7 +205,7 @@ footer{
 		grid-template-rows: auto auto;
 	}
 	.main-grid-active{
-		grid-template-columns: 40%% 60%;
+		grid-template-columns: 20% 80%;
 		grid-template-rows: auto auto;
 	}
 	aside{
@@ -233,7 +233,7 @@ footer{
 		grid-template-rows: auto auto;
 	}
 	.main-grid-active{
-		grid-template-columns: 40% 60%;
+		grid-template-columns: 20% 80%;
 		grid-template-rows: auto auto;
 	}
 	aside{
