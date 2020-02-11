@@ -124,13 +124,22 @@ article p{
 .flex-wrapper{
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
 	position: fixed;
 	bottom: 3px;
 	border: 1px solid white;
 	border-radius: 10px;
 	background: #b25252;
 	padding: 0;
+}
+.menu-flexbox{
+	flex-direction: row;
+	position: fixed;
+	right: 3px;
+	padding: 0;
+}
+.menu-links{
+	color: #b25252;
+	margin-right: 20px;
 }
 .sm-icons{
 	max-height: 5vh;
@@ -186,10 +195,6 @@ footer{
 .icons{
 	display: inline-block;
 }
-.sm-icons{
-	max-height: 6vh;
-	margin-right: 5px;
-}
 /*
   ##Device = Desktops
 */
@@ -208,6 +213,10 @@ footer{
 	}
 	.navitem{
 		display: inline-block;
+	}
+	.menu-flexbox{
+		display: none;
+
 	}
 	.flexbox{
 		left: 35%;
@@ -233,6 +242,9 @@ footer{
 	.navitem{
 		display: inline-block;
 	}
+	.menu-flexbox{
+		display: none;
+	}
 	.flexbox{
 		left: 35%;
 	}
@@ -257,6 +269,9 @@ footer{
 	.navitem{
 		display: inline-block;
 	}
+	.menu-flexbox{
+		display: none;
+	}
 	.flexbox{
 		left: 35%;
 	}
@@ -280,6 +295,9 @@ footer{
 	}
 	.navitem{
 		display: inline-block;
+	}
+	.menu-flexbox{
+		display: none;
 	}
 	.flexbox{
 		left: 35%;
@@ -308,6 +326,10 @@ footer{
 	.navitem{
 		display: none;
 	}
+	.menu-flexbox{
+		display: flex;
+		top: 2%;
+	}
 	.flexbox{
 		left: 35%;
 	}
@@ -331,6 +353,10 @@ footer{
 	}
 	.navitem{
 		display: none;
+	}
+	.menu-flexbox{
+		display: flex;
+		top: 5%;
 	}
 	.flexbox{
 		left: 20%;
