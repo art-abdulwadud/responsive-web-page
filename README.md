@@ -75,7 +75,7 @@ Inside the `aside` tag, there are `.article-links` which, within them, we have o
 ```
 display: block;
 ```
-The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag.
+The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag. And we also want to hide the `.open-menu` span tag as soon as the sidebar is fully open. For the `.main-grid`, we'll create another class called `.main-grid-active` which will be bigger in size and we'll replace that with the `.main-grid` class.
 ```
 closeMenu.addEventListener('click', () => {
 	sidebarActive = false
@@ -88,7 +88,19 @@ closeMenu.addEventListener('click', () => {
 	openMenu.style.display = 'inline-table';
 })
 ```
-The 
+For closing the sidebar, vice versa
+```
+closeMenu.addEventListener('click', () => {
+	sidebarActive = false
+	for(let i = 0; i < links.length; i++){
+		links[i].style.display = 'none';
+	}
+	mainGrid.classList.remove('main-grid-active')
+	mainGrid.classList.add('main-grid')
+	closeMenu.style.display = 'none';
+	openMenu.style.display = 'inline-table';
+})
+```
 ## Flexbox
 
 ## Responsive Containers
