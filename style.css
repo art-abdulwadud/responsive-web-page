@@ -110,6 +110,10 @@ article h1{
 	font-size: calc(90% + 25px);
 	margin-left: 5px;
 }
+.car{
+	max-height: 50vh;
+	min-width: 40%;
+}
 article p{
 	font-family: 'Lemonada', cursive;
 	font-size: calc(60% + 10px);
