@@ -5,7 +5,6 @@
 * [Navbar](#Navbar)
 * [Sidebar](#Sidebar)
 * [Flexbox](#Flexbox)
-* [Responsive-Containers](#Responsive-Containers)
 
 ## Navbar
 For a responsive navbar, I have used a header tag and set it's position to relative. By doing this, I am able to separate the navbar from the other sections. 
@@ -100,7 +99,7 @@ e.g
 	}
 }
 ```
-The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag. And we also want to hide the `.open-menu` span tag as soon as the sidebar is fully open. 
+The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag. And we also want to hide the `.open-menu` span tag and show the all the`.links` span tags as soon as the sidebar is fully open. 
 ```
 openMenu.addEventListener('click', () => {
 	sidebarActive = true;
@@ -127,6 +126,18 @@ closeMenu.addEventListener('click', () => {
 })
 ```
 ## Flexbox
-
-## Responsive Containers
+The `.flexbox` class is not assigned a grid column or row but it's `position` is set to `absolute` in order for it to appear on the screen.
+```
+position: absolute;
+```
+Then within it is the `.flex-wrapper` which is set to a fixed position and then it's `bottom` is set to place it at the bottom of the screen
+```
+position: fixed;
+bottom: 3px;
+```
+In order for items/elements within the `.flex-wrapper` to be arranged horizontally, it's `display` is set to `flex` and the `flex-direction` is set to `row`.
+```
+display: flex;
+flex-direction: row;
+```
 
