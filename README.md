@@ -75,7 +75,32 @@ Inside the `aside` tag, there are `.article-links` which, within them, we have o
 ```
 display: block;
 ```
-The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag. And we also want to hide the `.open-menu` span tag as soon as the sidebar is fully open. For the `.main-grid`, we'll create another class called `.main-grid-active` which will be bigger in size and we'll replace that with the `.main-grid` class.
+For the `.main-grid`, we'll create another class called `.main-grid-active` which will be bigger in size and we'll replace that with the `.main-grid` class. This way, we can increase or decrease the size of the sidebar depending on the width of the device.
+e.g
+```
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.main-grid{
+		grid-template-columns: 5% 95%;
+		grid-template-rows: auto auto;
+	}
+	.main-grid-active{
+		grid-template-columns: 25% 75%;
+		grid-template-rows: auto auto;
+	}
+}
+
+@media (max-width: 480px) {
+  	.main-grid{
+		grid-template-columns: 15% 85%;
+		grid-template-rows: auto auto;
+	}
+	.main-grid-active{
+		grid-template-columns: 70% 30%;
+		grid-template-rows: auto auto;
+	}
+}
+```
+The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag. And we also want to hide the `.open-menu` span tag as soon as the sidebar is fully open. 
 ```
 openMenu.addEventListener('click', () => {
 	sidebarActive = true;
