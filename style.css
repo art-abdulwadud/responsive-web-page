@@ -113,6 +113,7 @@ article h1{
 .car{
 	max-height: 50vh;
 	min-width: 40%;
+	max-width: 70%;
 }
 article p{
 	font-family: 'Lemonada', cursive;
@@ -137,7 +138,7 @@ article p{
 }
 .menu-flexbox{
 	flex-direction: row;
-	position: fixed;
+	position: absolute;
 	right: 3px;
 	padding: 0;
 }
@@ -329,7 +330,7 @@ footer{
 	}
 	.menu-flexbox{
 		display: flex;
-		top: 2%;
+		top: 20%;
 	}
 	.flexbox{
 		left: 35%;
@@ -357,7 +358,6 @@ footer{
 	}
 	.menu-flexbox{
 		display: flex;
-		top: 5%;
 	}
 	.flexbox{
 		left: 20%;
