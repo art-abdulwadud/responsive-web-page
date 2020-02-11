@@ -30,8 +30,20 @@ Since flex display is applied, it's `flex-direction` is set to row to arrange it
 ```
 flex-direction: row;
 ```
+## Grid Display
+The benefit of a grid display is to be able to place element anywhere you want them to be. The concept is to create a grid made of rows and columns,hence creating cells within which you can fit your data.
+e.g
+```
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto;
+```
+In this instance, we have created a grid made up two colums and a row, therefore, two cells, one on the left and another on the right.
 
+In this project, a grid is created to hold all the sections of the page except the Navbar which is on the header section. This is done to make it easier to arrange all other sections and place them where needed.
 ## Sidebar
+
+
 
 ## Flexbox
 
