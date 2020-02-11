@@ -192,9 +192,6 @@ footer{
 	font-family: 'Lemonada', cursive;
 	font-size: calc(60% + 6px);
 }
-.icons{
-	display: inline-block;
-}
 /*
   ##Device = Desktops
 */
@@ -219,7 +216,7 @@ footer{
 
 	}
 	.flexbox{
-		left: 35%;
+		left: 40%;
 	}
 }
 
@@ -233,7 +230,7 @@ footer{
 		grid-template-rows: auto auto;
 	}
 	.main-grid-active{
-		grid-template-columns: 20% 80%;
+		grid-template-columns: 25% 75%;
 		grid-template-rows: auto auto;
 	}
 	aside{
@@ -246,7 +243,7 @@ footer{
 		display: none;
 	}
 	.flexbox{
-		left: 35%;
+		left: 40%;
 	}
 }
 
@@ -314,7 +311,7 @@ footer{
 		grid-template-rows: auto auto;
 	}
 	.main-grid-active{
-		grid-template-columns: 80% 20%;
+		grid-template-columns: 40% 60%;
 		grid-template-rows: auto auto;
 	}
 	aside{
@@ -345,7 +342,7 @@ footer{
 		grid-template-rows: auto auto;
 	}
 	.main-grid-active{
-		grid-template-columns: 85% 15%;
+		grid-template-columns: 70% 30%;
 		grid-template-rows: auto auto;
 	}
 	aside{
