@@ -5,6 +5,7 @@
 * [Navbar](#Navbar)
 * [Sidebar](#Sidebar)
 * [Flexbox](#Flexbox)
+* [Footer](#Footer)
 
 ## Navbar
 For a responsive navbar, I have used a header tag and set it's position to relative. By doing this, I am able to separate the navbar from the other sections. 
@@ -140,4 +141,21 @@ In order for items/elements within the `.flex-wrapper` to be arranged horizontal
 display: flex;
 flex-direction: row;
 ```
-
+## Footer
+As for the footer, it has been placed within the `.main-grid` for it to automatically appear without having to set it's position. A minimum height is applied.
+```
+min-height: 40vh;
+```
+To separate it into two sections, bootstrap grid is applied.
+```
+<div class="container">
+  <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
+</div>
+```
