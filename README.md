@@ -21,15 +21,16 @@ For the unordered list, it has no list style and for it to be on the right side 
 list-style: none;
 text-align: right;
 ```
-Finally, the `.menu-flexbox` is set to appear only on small devices, while disabling the unordered list `.navlist`. This is done to improve responsiveness in all devices. To place the `.menu-flexbox` at the top of the screen, it's position is set to absolute and then it's right is set to place it on the right side of the screen.
+Finally, the `.menu-flexbox` is set to appear only on small devices, while disabling the unordered list `.navlist`. This is done to improve responsiveness in all devices. To place the `.menu-flexbox` at the top of the screen, it's position is set to absolute and then it's right is set to place it on the right side of the screen. `flex` display is used but other displays such as`inline-block`, `table-caption`, `inline-table` etc etc can also work.
 ```
 position: absolute;
 right: 5px;
 ```
-And also, it's `flex-direction` is set to row to arrange it's elements horizontally
+Since flex display is applied, it's `flex-direction` is set to row to arrange it's elements horizontally
 ```
 flex-direction: row;
 ```
+
 ## Sidebar
 
 ## Flexbox
