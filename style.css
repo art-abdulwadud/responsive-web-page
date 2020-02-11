@@ -184,9 +184,6 @@ footer{
 	.navitem{
 		display: inline-block;
 	}
-	.nav-icon{
-		display: none;
-	}
 }
 
 /*
@@ -207,9 +204,6 @@ footer{
 	}
 	.navitem{
 		display: inline-block;
-	}
-	.nav-icon{
-		display: none;
 	}
 }
 
@@ -232,9 +226,6 @@ footer{
 	.navitem{
 		display: inline-block;
 	}
-	.nav-icon{
-		display: none;
-	}
 }
 
 /*
@@ -255,9 +246,6 @@ footer{
 	}
 	.navitem{
 		display: inline-block;
-	}
-	.nav-icon{
-		display: none;
 	}
 }
 
@@ -283,9 +271,6 @@ footer{
 	.navitem{
 		display: none;
 	}
-	.nav-icon{
-		display: block;
-	}
 }
 
 /*
@@ -306,8 +291,5 @@ footer{
 	}
 	.navitem{
 		display: none;
-	}
-	.nav-icon{
-		display: block;
 	}
 }
