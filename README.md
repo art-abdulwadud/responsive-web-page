@@ -77,15 +77,15 @@ display: block;
 ```
 The toggling effect is then activated in the JavaScript file on clicking the `.open-menu` span tag. And we also want to hide the `.open-menu` span tag as soon as the sidebar is fully open. For the `.main-grid`, we'll create another class called `.main-grid-active` which will be bigger in size and we'll replace that with the `.main-grid` class.
 ```
-closeMenu.addEventListener('click', () => {
-	sidebarActive = false
+openMenu.addEventListener('click', () => {
+	sidebarActive = true;
 	for(let i = 0; i < links.length; i++){
-		links[i].style.display = 'none';
+		links[i].style.display = 'inline-block';
 	}
-	mainGrid.classList.remove('main-grid-active')
-	mainGrid.classList.add('main-grid')
-	closeMenu.style.display = 'none';
-	openMenu.style.display = 'inline-table';
+	mainGrid.classList.remove('main-grid')
+	mainGrid.classList.add('main-grid-active')
+	closeMenu.style.display = 'inline-table';
+	openMenu.style.display = 'none';
 })
 ```
 For closing the sidebar, vice versa
