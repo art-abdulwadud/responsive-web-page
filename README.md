@@ -8,7 +8,7 @@ View Project https://art-abdulwadud.github.io/responsive-web-page/
 * [Footer](#Footer)
 
 ## Navbar
-For a responsive navbar, I have used a header tag and set it's position to relative. By doing this, I am able to separate the navbar from the other sections. 
+For a responsive navbar, a header tag is used and it's position is set to relative. By doing this, the navbar section separated from all the other sections in the page. 
 ```
 position: relative;
 ```
