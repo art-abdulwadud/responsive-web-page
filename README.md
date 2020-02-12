@@ -6,6 +6,7 @@ View Project https://art-abdulwadud.github.io/responsive-web-page/
 * [Sidebar](#Sidebar)
 * [Flexbox](#Flexbox)
 * [Footer](#Footer)
+* [AOS](#AOS)
 
 ## Navbar
 For a responsive navbar, a header tag is used and it's position is set to relative. By doing this, the navbar section separated from all the other sections in the page. 
@@ -159,3 +160,5 @@ To separate it into two sections, bootstrap grid is applied.
   </div>
 </div>
 ```
+## AOS
+AOS, which stands for animate on scroll,is an awesome feature created by Michalsnik(https://github.com/michalsnik). You can find AOS and how it works at https://github.com/michalsnik/aos. Check out what it can do at https://michalsnik.github.io/aos/
