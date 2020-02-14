@@ -143,7 +143,7 @@ display: flex;
 flex-direction: row;
 ```
 ## Footer
-As for the footer, it has been placed within the `.main-grid` for it to automatically appear without having to set it's position. A minimum height is applied.
+As for the footer, it has been placed within the `.main-grid` in the HTML section. For both the sidebar and the articles section, we specifially set their grid row and column, at the bottom, there was an empty cell which hadn't been filled. By doing this, the footer is automatically fit into the blank cell in our grid without having to set it's grid row and column. A minimum height is applied.
 ```
 min-height: 40vh;
 ```
