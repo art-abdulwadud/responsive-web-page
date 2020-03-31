@@ -1,5 +1,5 @@
 # A Responsive Web Page For Begginers
-View Project https://art-abdulwadud.github.io/responsive-web-page/
+View Project [here](https://art-abdulwadud.github.io/responsive-web-page/)
 ## Table of Contents
 
 * [Navbar](#Navbar)
@@ -161,7 +161,7 @@ To separate it into two sections, bootstrap grid is applied.
 </div>
 ```
 ## AOS
-AOS, which stands for animate on scroll,is an awesome feature created by Michalsnik(https://github.com/michalsnik). You can find AOS and how it works at https://github.com/michalsnik/aos. Check out what it can do at https://michalsnik.github.io/aos/
+AOS, which stands for animate on scroll,is an awesome feature created by [Michalsnik](https://github.com/michalsnik). You can find AOS and how it works [here](https://github.com/michalsnik/aos). [Check out what it can do](https://michalsnik.github.io/aos/)
 
 ## License
 
