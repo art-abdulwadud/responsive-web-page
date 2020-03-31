@@ -1,5 +1,5 @@
 # A Responsive Web Page For Begginers
-View Project [here](https://art-abdulwadud.github.io/responsive-web-page/)
+[Take a peak](https://art-abdulwadud.github.io/responsive-web-page/)
 ## Table of Contents
 
 * [Navbar](#Navbar)
